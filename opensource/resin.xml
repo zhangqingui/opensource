@@ -1,0 +1,20 @@
+<resin xmlns="http://caucho.com/ns/resin"
+       xmlns:resin="urn:java:com.caucho.resin">
+
+  <cluster-default>
+    <resin:import path="classpath:META-INF/caucho/app-default.xml"/>
+  </cluster-default>
+  <logger name="" level="info"/>
+
+  <cluster id="">
+    <server id="">
+      <http port="8099"/>
+    </server>
+
+    <host id="" root-directory=".">
+      <web-app id="/" root-directory="E:\jrjwork\resteasyExample\resteasyExample\target\resteasyExample" >
+        <jsp el-ignored="true"/>
+      </web-app>
+    </host>
+  </cluster>
+</resin>
