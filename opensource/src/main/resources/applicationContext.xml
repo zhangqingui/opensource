@@ -14,6 +14,7 @@
 	>
 
 	<description>Spring公共配置</description>
+	 <aop:aspectj-autoproxy /> 
 	<context:component-scan base-package="*" />
 	<!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
 	<!--<context:component-scan base-package=""> -->

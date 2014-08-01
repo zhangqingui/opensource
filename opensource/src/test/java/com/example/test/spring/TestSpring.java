@@ -44,12 +44,12 @@ public class TestSpring {
 	}
 	@Test
 	public void testAnnotation(){
-		ApplicationContext context = new AnnotationConfigApplicationContext(Appconfig.class);
-		CustomerBo customer = (CustomerBo) context.getBean("customer");
-		customer.printMsg("Hello 1");
- 
-		SchedulerBo scheduler = (SchedulerBo) context.getBean("scheduler");
-		scheduler.printMsg("Hello 2");
+//		ApplicationContext context = new AnnotationConfigApplicationContext(Appconfig.class);
+//		CustomerBo customer = (CustomerBo) context.getBean("customer");
+//		customer.printMsg("Hello 1");
+// 
+//		SchedulerBo scheduler = (SchedulerBo) context.getBean("scheduler");
+//		scheduler.printMsg("Hello 2");
 	}
 	@Test
 	public void testBean(){

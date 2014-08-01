@@ -14,7 +14,6 @@ import com.alibaba.fastjson.serializer.ValueFilter;
 
 public class TestJsonSerial implements ObjectSerializer {
 
-	@Override
 	public void write(JSONSerializer jsonserializer, Object object, Object fieldName, Type fieldType) throws IOException {
 		List<ValueFilter> v =	jsonserializer.getValueFilters();
 		for(ValueFilter f:v){
